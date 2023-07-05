@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "download-manager"
+version = "1.0.0"
+dependencies = ["watchdog>=3.0"]
+[project.scripts]
+dwlm = "download_manager.__main__:main"
